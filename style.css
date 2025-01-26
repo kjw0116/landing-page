@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    flex-direction: column;   
+    margin:0; 
+    justify-content: space-between;
+    background-color: rgb(22, 33, 54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    flex:1;
+}
+
+.first{
+    padding:10px 150px;  
+}
+
+.right{    
+    flex:1;
+    background-color: grey; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size:20px;
+}
+.left{
+    flex: 1;
+}
+
+.second, .fourth{
+    background-color: white;
+    color:black;
+}
+
+.third{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 150px;
+    color:black;
+    
+}
+
+.quote{
+    font-size: 32px;
+    font-style:italic;
+        font-family: sans-serif;    
+    margin:0;
+}
+
+.author{
+    margin-left:auto;
+    margin-top:0;
+    margin-bottom:0;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    
+    color:white;
+    margin-top: auto;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+     
+}
+
+.hero{
+    display:flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+
+.left h1{
+    max-width:200px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.left p{
+    max-width:380px;
+    margin:0;
+}
+
+button{
+    color:white;
+    background-color:rgb(20, 137, 247);
+    padding: 5px 20px;
+    margin-top: 12px;
+    border-radius: 4px;
+    border:none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    gap:18px;
+}
+
+.second h1{
+    text-align: center;
+    padding: 35px;
+    margin:0;
+}
+
+.illustration{
+    height: 130px;    
+    border:solid blue 2px;
+    border-radius: 5px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    gap:52px;
+    padding-bottom:90px;
+    text-align: center;
+}
+
+.container p{
+    margin:0;
+}
+.card{
+    max-width: 130px;
+}
+
+.fourth{
+    padding:90px;
+}
+
+.modal{
+    display:flex;
+    padding:50px 110px;
+    color:white;
+    background-color:rgb(20, 137, 247);
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-right button{
+    border:solid white 2px;
+}
+
+.modal-left h1, .modal-left p{
+    margin:0;
+}
+
+.footer{
+    padding: 15px;
+    text-align: center;
+}
